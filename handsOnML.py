@@ -10,3 +10,5 @@ df = pd.read_csv('AmesHousing.csv')
 df.drop(['Order', 'PID'], axis=1, inplace=True)
 
 print(df['SalePrice'].describe().apply(lambda x: '{:,.1f}'.format(x)))
+
+# First
